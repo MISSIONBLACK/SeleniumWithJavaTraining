@@ -1,0 +1,8 @@
+package OOPS;
+
+public class Cars {
+
+	public void run() {
+		System.out.println("Car is Running");
+	}
+}

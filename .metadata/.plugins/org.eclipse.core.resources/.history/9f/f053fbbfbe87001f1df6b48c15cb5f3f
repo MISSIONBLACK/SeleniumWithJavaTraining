@@ -1,0 +1,23 @@
+package Maps;
+
+import java.util.LinkedHashMap;
+
+public class LinkedHapMap {
+
+	public static void main(String[] args) {
+
+
+		LinkedHashMap<String, String> lmap = new LinkedHashMap<>();
+		
+		lmap.put("Akash", "27");
+		lmap.put("John", "47");
+		lmap.put("Amit", "26");
+		lmap.put("Nitika", "23");
+		lmap.put("Julia", "32");
+		lmap.put("Akashh", "28");
+		
+		System.out.println(lmap);
+
+	}
+
+}

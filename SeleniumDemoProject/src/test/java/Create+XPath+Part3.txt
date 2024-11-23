@@ -1,0 +1,11 @@
+
+Conatins + Contains Combination + Contains and HTML Attribute:
+//div[contains(text(),'2019') and contains(@id,'last_trade')]
+//div[contains(text(),'2019') and @id='last_traded_time']
+
+
+//Normalize Text in XPath:
+<button type="button">   Selenium   </button><br><br>
+//button[normalize-space(text())='Selenium']
+
+

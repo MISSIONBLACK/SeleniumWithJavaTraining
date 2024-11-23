@@ -1,0 +1,43 @@
+package SeleniumIntro;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class FirstScript {
+
+	/*
+	 * WebDriver driver;
+	 * 
+	 * @BeforeMethod
+	 * 
+	 * @Parameters("browser") public void setUp(String browser) { if
+	 * (browser.equalsIgnoreCase("chrome")) {
+	 * WebDriverManager.chromedriver().setup(); driver = new ChromeDriver(); } else
+	 * if (browser.equalsIgnoreCase("firefox")) {
+	 * WebDriverManager.firefoxdriver().setup(); driver = new FirefoxDriver(); }
+	 * else { throw new IllegalArgumentException("Browser not supported: " +
+	 * browser); } }
+	 */
+
+    @Test
+    public void openFacebook() {
+        driver.get("https://www.facebook.com");
+        Assert.assertTrue(driver.getTitle().contains("Facebook"), "Title does not contain 'Facebook'");
+    }
+
+	/*
+	 * @Test public void openCNN() { driver.get("https://www.cnn.com");
+	 * Assert.assertTrue(driver.getTitle().contains("CNN"),
+	 * "Title does not contain 'CNN'"); }
+	 * 
+	 * @AfterMethod public void tearDown() { if (driver != null) { driver.quit(); }
+	 * }
+	 */
+}

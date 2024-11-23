@@ -1,0 +1,13 @@
+package Sample;
+
+public class SampleTest {
+
+	@BeforeSuite
+	public void beforeSuiteMethod() {
+		System.out.println("Executing Before Test Suite");
+	}
+	
+	public void afterSuiteMethod() {
+		System.out.println("Executing After Test Suite");
+	}
+}

@@ -1,0 +1,5 @@
+1730284757919	Rename resource 'chromedriver'
+1730284766524	Rename resource 'geckodriver'
+1730284775293	Rename resource 'operadriver'
+1730285087714	Delete element
+1730285109856	Move 'FirstScript.java' to 'SeleniumIntro'

@@ -1,0 +1,18 @@
+package suiteB;
+
+import org.testng.annotations.Test;
+
+import TestBase.TestBase;
+
+public class TestClassB extends TestBase{
+	
+	@Test
+	public void testB() throws InterruptedException {
+		System.out.println("Starting TestB");
+		test.info("Starting TestB");
+		Thread.sleep(5000);
+		System.out.println("Ending TestB");
+		test.info("Ending TestB");
+	}
+
+}

@@ -1,0 +1,16 @@
+package suiteB;
+
+import org.testng.annotations.Test;
+
+import TestBase.TestBase;
+
+public class TestClassBB extends TestBase{
+	
+	@Test
+	public void testBB() throws InterruptedException {
+		log("Starting TesBB");
+		Thread.sleep(5000);
+		log("Ending TestBB");
+	}
+
+}

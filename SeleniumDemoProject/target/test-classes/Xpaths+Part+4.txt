@@ -1,0 +1,13 @@
+Axes in Xpath--
+
+1. Self : //input/self::* - Facebook all input Fields
+2. Attribute : //div/attribute::* - Elements have div HTML Tag and aleast one HTML Attribute
+3. Child : //div[contains(@class,'pvl')]/child::* - Child of all pvl class on Facebook Registration Page
+4. Descendant or Self : //table[@role='presentation']/descendant-or-self::input[@type='password'] - Locator for Password on facebook WebPage
+5. Following-sibling : //table[@role='presentation']/following-sibling::*
+6. Following : //table[@role='presentation']/following::*
+
+7. Parent : //input[@type='text' and @name='firstname']/parent::* - Parent of FirstName field
+8. Ancestor : //input[@type='text' and @name='firstname']/ancestor-or-self::* - All ancestors of FirstName Field
+9. Preceding-sibling : //input[@name='login_source']/preceding-sibling::*
+10. Preceding : //input[@name='login_source']/preceding::*

@@ -1,0 +1,17 @@
+package suiteA;
+
+import org.testng.annotations.Test;
+
+import TestBase.TestBase;
+import dataProvider.TestDataProvider;
+
+public class TestClassAA extends TestBase{
+	
+	@Test(dataProviderClass = TestDataProvider.class, dataProvider = "dataProviderSuiteAA")
+	public void testAA() throws InterruptedException {
+		log("Starting TestAA");
+		Thread.sleep(5000);
+		log("Ending TestAA");
+	}
+
+}

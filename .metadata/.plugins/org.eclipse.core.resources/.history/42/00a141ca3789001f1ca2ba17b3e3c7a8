@@ -1,0 +1,10 @@
+/**
+ * 
+ */
+/**
+ * @author akasagar
+ *
+ */
+module TestNGProject {
+	requires org.testng;
+}

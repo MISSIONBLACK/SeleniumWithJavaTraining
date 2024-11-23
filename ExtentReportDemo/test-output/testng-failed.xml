@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Facebook Login Test(failed)">
+    <classes>
+      <class name="TestNGExtent.ExtentInitialization">
+        <methods>
+          <include name="init"/>
+          <include name="loginTests"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- TestNGExtent.ExtentInitialization -->
+    </classes>
+  </test> <!-- Facebook Login Test(failed) -->
+  <test thread-count="5" name="Facebook Registration Test(failed)">
+    <classes>
+      <class name="TestNGExtent.ResgistrationTest">
+        <methods>
+          <include name="quit"/>
+          <include name="init"/>
+          <include name="RegisTest"/>
+        </methods>
+      </class> <!-- TestNGExtent.ResgistrationTest -->
+    </classes>
+  </test> <!-- Facebook Registration Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

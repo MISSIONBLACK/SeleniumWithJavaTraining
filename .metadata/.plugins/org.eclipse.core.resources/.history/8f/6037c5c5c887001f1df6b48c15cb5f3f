@@ -1,0 +1,10 @@
+/**
+ * 
+ */
+/**
+ * @author LIN-2K3R9K3$
+ *
+ */
+module JavaProject {
+	requires org.apache.poi.ooxml;
+}

@@ -1,0 +1,20 @@
+package dataProvider;
+
+import java.lang.reflect.Method;
+
+import org.testng.annotations.DataProvider;
+
+// Seperate Data Providers for Each Test Suite
+// External Data Source -- JSON, Excel, YAML,XML, TXT
+
+public class TestDataProvider {
+	
+	@DataProvider
+	public static Object [] [] dataProviderSuiteA(Method method) {
+	
+		// Seperate Data for Each Test
+		System.out.println("Test Method Name -- " + method.getName());
+		
+		return null;
+	}
+}

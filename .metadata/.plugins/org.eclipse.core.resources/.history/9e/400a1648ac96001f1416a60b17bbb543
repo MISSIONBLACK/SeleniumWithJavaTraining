@@ -1,0 +1,17 @@
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class FirstScript {
+
+	@Test
+	public void OpenSuiteInChrome() {
+		
+		// Set the path to the ChromeDriver executable
+		System.setProperty("webdriver.chrome.driver", "C:\\Selenium Training\\eclipse-workspace\\SeleniumProject\\drivers\\chromedriver.exe")
+		
+		
+		ChromeDriver driver = new ChromeDriver();
+		
+		driver.get("https://www.facebook.com");
+		
+	}
+}

@@ -1,0 +1,27 @@
+package Utilities;
+
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.util.List;
+import java.util.Map;
+
+import com.esotericsoftware.yamlbeans.YamlException;
+import com.esotericsoftware.yamlbeans.YamlReader;
+
+public class ReadYamlData {
+
+	public static void main(String[] args) throws FileNotFoundException, YamlException {
+		
+		String filepath = System.getProperty("user.dir") + "//testData.yaml";
+		System.out.println("File path: " + filepath);
+		FileReader file = new FileReader(filepath);
+
+		YamlReader reader = new YamlReader(file);
+		
+		Map testData = (Map) reader.read();
+		
+		List testCases = (List) testData.get("testData");
+		System.out.println(testCases);
+	}
+
+}

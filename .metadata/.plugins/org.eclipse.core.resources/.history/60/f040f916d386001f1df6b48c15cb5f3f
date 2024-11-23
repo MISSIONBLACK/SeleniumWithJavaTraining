@@ -1,0 +1,20 @@
+package OOPS;
+
+public class MedicalClass implements Student{
+
+	
+	public void displayName() {
+		System.out.println("Hi, We are form Medical Department");
+	}
+
+	
+	public void getStudentNumber() {
+		System.out.println("We are 140 Students");
+	}
+
+	
+	public void getStandard() {
+		System.out.println("We are from MBBS");
+	}
+
+}
