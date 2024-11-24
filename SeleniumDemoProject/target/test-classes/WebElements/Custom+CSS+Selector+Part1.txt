@@ -1,0 +1,24 @@
+<html>
+	<body>
+	<div name='183902892_username_783790230-47' class='c' id='p'>
+		<div id='sec'>
+				<label abc='673737393_abcD' id="user">Username</label>
+				<input id="username_1238494940" type="text">
+		</div>
+	</div>
+	</body>
+</html>
+
+
+Wild Card CSS Selector :
+
+1. ^ (Carrat Character) : input[id^='username']
+2. $ (Dollor Character) : label[abc$='_abcd']
+3. * (Asterisk Character) : div[name*='username']
+
+
+CSS Combinator --
+1. Space Combinator : table[role='presentation'] tbody tr td label[for='email'] - Identify username on web-page.
+2. Child Combinator : div[class^='pvl']>div 
+3. Adjacent Sibling : div[id='fullname_field'] + div
+4. General Sibling : div[id='fullname_field'] ~ div

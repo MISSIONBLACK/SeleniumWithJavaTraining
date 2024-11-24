@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="WebElements.LocatorsDemo">
+      <class name="seleniumWaits.SeleniumExpicitlyWaits">
         <methods>
-          <include name="verifyRediffSignIn"/>
+          <include name="setUp"/>
+          <include name="finish"/>
+          <include name="verifyAlert"/>
         </methods>
-      </class> <!-- WebElements.LocatorsDemo -->
+      </class> <!-- seleniumWaits.SeleniumExpicitlyWaits -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
