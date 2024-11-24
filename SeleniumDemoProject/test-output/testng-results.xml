@@ -1,73 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-24T04:46:31Z" name="Default suite" finished-at="2024-11-24T04:47:32Z" duration-ms="60568">
+  <suite started-at="2024-11-24T07:28:33Z" name="Default suite" finished-at="2024-11-24T07:29:16Z" duration-ms="43213">
     <groups>
     </groups>
-    <test started-at="2024-11-24T04:46:31Z" name="Default test" finished-at="2024-11-24T04:47:32Z" duration-ms="60568">
-      <class name="seleniumWaits.SeleniumExpicitlyWaits">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:seleniumWaits.SeleniumExpicitlyWaits@20ca951f]" started-at="2024-11-24T04:46:31Z" name="setUp" finished-at="2024-11-24T04:46:34Z" duration-ms="2680" status="PASS">
+    <test started-at="2024-11-24T07:28:33Z" name="Default test" finished-at="2024-11-24T07:29:16Z" duration-ms="43213">
+      <class name="SeleniumWebDriverPart1.ExtractWebPagePart">
+        <test-method is-config="true" signature="init()[pri:0, instance:SeleniumWebDriverPart1.ExtractWebPagePart@74a6f9c1]" started-at="2024-11-24T07:28:33Z" name="init" finished-at="2024-11-24T07:29:15Z" duration-ms="42152" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyAlert()[pri:0, instance:seleniumWaits.SeleniumExpicitlyWaits@20ca951f]" started-at="2024-11-24T04:46:34Z" name="verifyAlert" finished-at="2024-11-24T04:46:40Z" duration-ms="6320" status="PASS">
+        </test-method> <!-- init -->
+        <test-method signature="extractElementTest()[pri:0, instance:SeleniumWebDriverPart1.ExtractWebPagePart@74a6f9c1]" started-at="2024-11-24T07:29:15Z" name="extractElementTest" finished-at="2024-11-24T07:29:16Z" duration-ms="419" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAlert -->
-        <test-method is-config="true" signature="finish()[pri:0, instance:seleniumWaits.SeleniumExpicitlyWaits@20ca951f]" started-at="2024-11-24T04:46:40Z" name="finish" finished-at="2024-11-24T04:46:41Z" duration-ms="469" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- finish -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:seleniumWaits.SeleniumExpicitlyWaits@20ca951f]" started-at="2024-11-24T04:46:41Z" name="setUp" finished-at="2024-11-24T04:46:43Z" duration-ms="2089" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyButtonAvailableText()[pri:0, instance:seleniumWaits.SeleniumExpicitlyWaits@20ca951f]" started-at="2024-11-24T04:46:43Z" name="verifyButtonAvailableText" finished-at="2024-11-24T04:46:53Z" duration-ms="10252" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyButtonAvailableText -->
-        <test-method is-config="true" signature="finish()[pri:0, instance:seleniumWaits.SeleniumExpicitlyWaits@20ca951f]" started-at="2024-11-24T04:46:53Z" name="finish" finished-at="2024-11-24T04:46:53Z" duration-ms="408" status="PASS">
+        </test-method> <!-- extractElementTest -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:SeleniumWebDriverPart1.ExtractWebPagePart@74a6f9c1]" started-at="2024-11-24T07:29:16Z" name="finish" finished-at="2024-11-24T07:29:16Z" duration-ms="621" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finish -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:seleniumWaits.SeleniumExpicitlyWaits@20ca951f]" started-at="2024-11-24T04:46:53Z" name="setUp" finished-at="2024-11-24T04:46:55Z" duration-ms="1991" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyElementEnableTest()[pri:0, instance:seleniumWaits.SeleniumExpicitlyWaits@20ca951f]" started-at="2024-11-24T04:46:55Z" name="verifyElementEnableTest" finished-at="2024-11-24T04:47:05Z" duration-ms="10178" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyElementEnableTest -->
-        <test-method is-config="true" signature="finish()[pri:0, instance:seleniumWaits.SeleniumExpicitlyWaits@20ca951f]" started-at="2024-11-24T04:47:05Z" name="finish" finished-at="2024-11-24T04:47:06Z" duration-ms="376" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- finish -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:seleniumWaits.SeleniumExpicitlyWaits@20ca951f]" started-at="2024-11-24T04:47:06Z" name="setUp" finished-at="2024-11-24T04:47:08Z" duration-ms="2028" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyElementSelectText()[pri:0, instance:seleniumWaits.SeleniumExpicitlyWaits@20ca951f]" started-at="2024-11-24T04:47:08Z" name="verifyElementSelectText" finished-at="2024-11-24T04:47:18Z" duration-ms="10561" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyElementSelectText -->
-        <test-method is-config="true" signature="finish()[pri:0, instance:seleniumWaits.SeleniumExpicitlyWaits@20ca951f]" started-at="2024-11-24T04:47:18Z" name="finish" finished-at="2024-11-24T04:47:19Z" duration-ms="445" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- finish -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:seleniumWaits.SeleniumExpicitlyWaits@20ca951f]" started-at="2024-11-24T04:47:19Z" name="setUp" finished-at="2024-11-24T04:47:21Z" duration-ms="2079" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyTextPresent()[pri:0, instance:seleniumWaits.SeleniumExpicitlyWaits@20ca951f]" started-at="2024-11-24T04:47:21Z" name="verifyTextPresent" finished-at="2024-11-24T04:47:31Z" duration-ms="10211" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTextPresent -->
-        <test-method is-config="true" signature="finish()[pri:0, instance:seleniumWaits.SeleniumExpicitlyWaits@20ca951f]" started-at="2024-11-24T04:47:31Z" name="finish" finished-at="2024-11-24T04:47:32Z" duration-ms="446" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- finish -->
-      </class> <!-- seleniumWaits.SeleniumExpicitlyWaits -->
+      </class> <!-- SeleniumWebDriverPart1.ExtractWebPagePart -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

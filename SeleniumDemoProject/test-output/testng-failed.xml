@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="seleniumWaits.SeleniumExpicitlyWaits">
+      <class name="SeleniumWebDriverPart1.ExtractWebPagePart">
         <methods>
-          <include name="setUp"/>
           <include name="finish"/>
-          <include name="verifyAlert"/>
+          <include name="extractElementTest"/>
+          <include name="init"/>
         </methods>
-      </class> <!-- seleniumWaits.SeleniumExpicitlyWaits -->
+      </class> <!-- SeleniumWebDriverPart1.ExtractWebPagePart -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

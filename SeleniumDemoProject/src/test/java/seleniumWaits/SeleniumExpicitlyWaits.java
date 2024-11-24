@@ -94,9 +94,9 @@ public class SeleniumExpicitlyWaits {
 		WebElement Btn = driver.findElement(By.id("checkbox"));
 		Btn.click();
 		
-		WebElement clickableBtn = driver.findElement(By.id("ch"));
+		WebElement checkBox = driver.findElement(By.id("ch"));
 		
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofMinutes(1));
-		wait.until(ExpectedConditions.elementToBeSelected(clickableBtn));
+		wait.until(ExpectedConditions.elementToBeSelected(checkBox));
 	}
 }
