@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SeleniumWebDriverPart1.ExtractWebPagePart">
+      <class name="SeleniumWebDriverPart2.HandleMouseHover">
         <methods>
-          <include name="finish"/>
-          <include name="extractElementTest"/>
+          <include name="performMouseHoverTest"/>
           <include name="init"/>
+          <include name="finish"/>
         </methods>
-      </class> <!-- SeleniumWebDriverPart1.ExtractWebPagePart -->
+      </class> <!-- SeleniumWebDriverPart2.HandleMouseHover -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

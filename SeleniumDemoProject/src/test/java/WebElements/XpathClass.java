@@ -13,8 +13,7 @@ public class XpathClass {
 	@Test
 	public void absoluteXpath() {
 
-		System.setProperty("webdriver.chrome.driver",
-				"C:/Selenium Training/eclipse-workspace/SeleniumDemoProject/drivers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -41,8 +40,7 @@ public class XpathClass {
 	@Test
 	public void relativeXPath() {
 
-		System.setProperty("webdriver.chrome.driver",
-				"C:/Selenium Training/eclipse-workspace/SeleniumDemoProject/drivers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -68,8 +66,7 @@ public class XpathClass {
 	@Test
 	public void tageXPath() {
 
-		System.setProperty("webdriver.chrome.driver",
-				"C:/Selenium Training/eclipse-workspace/SeleniumDemoProject/drivers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();

@@ -14,8 +14,7 @@ public class SeleniumImplicitWaits {
 	public void googleSearchTest() throws InterruptedException {
 
 		// Set up Chrome WebDriver
-		System.setProperty("webdriver.chrome.driver",
-				"C:/Selenium Training/eclipse-workspace/SeleniumDemoProject/drivers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 
 		// Maximize the browser window

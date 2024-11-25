@@ -11,8 +11,7 @@ public class CNNTest {
 	@Test
 	public void testTravelLinkwithAbsoluteXPath() {
 
-		System.setProperty("webdriver.chrome.driver",
-				"C:/Selenium Training/eclipse-workspace/SeleniumDemoProject/drivers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -45,8 +44,7 @@ public class CNNTest {
 	@Test
 	public void testTravelLinkwithRelativeXPath() {
 
-		System.setProperty("webdriver.chrome.driver",
-				"C:/Selenium Training/eclipse-workspace/SeleniumDemoProject/drivers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();

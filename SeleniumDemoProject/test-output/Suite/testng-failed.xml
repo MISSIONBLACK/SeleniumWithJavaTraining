@@ -1,16 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <parameter name="browser" value="chrome"/>
   <test thread-count="5" name="Test(failed)">
     <classes>
       <class name="browsers.InvokeDynamicBrowser">
         <methods>
           <include name="openBrowser"/>
+          <include name="verifyOrangeHRMSite"/>
           <include name="quitBrowser"/>
+          <include name="verifySeleniumSite"/>
           <include name="verifyCACertError"/>
         </methods>
       </class> <!-- browsers.InvokeDynamicBrowser -->
+      <class name="WebElements.XpathClass">
+        <methods>
+          <include name="tageXPath"/>
+          <include name="relativeXPath"/>
+          <include name="absoluteXpath"/>
+        </methods>
+      </class> <!-- WebElements.XpathClass -->
+      <class name="SeleniumWebDriverPart1.ExtractTextFromWebElement">
+        <methods>
+          <include name="init"/>
+          <include name="finish"/>
+          <include name="extractTextfromWebPage"/>
+        </methods>
+      </class> <!-- SeleniumWebDriverPart1.ExtractTextFromWebElement -->
+      <class name="WebElements.FindElementsClass">
+        <methods>
+          <include name="findElementTest"/>
+        </methods>
+      </class> <!-- WebElements.FindElementsClass -->
+      <class name="WebElements.RediffSignInTest">
+        <methods>
+          <include name="verifyRediffSignIn"/>
+        </methods>
+      </class> <!-- WebElements.RediffSignInTest -->
+      <class name="WebElements.FindElementClass">
+        <methods>
+          <include name="findElementTest"/>
+        </methods>
+      </class> <!-- WebElements.FindElementClass -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

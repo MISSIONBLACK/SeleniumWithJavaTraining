@@ -15,8 +15,7 @@ public class HardCodedWaits {
 	@Test
 	public void googleSearchTest() throws InterruptedException {
 
-		System.setProperty("webdriver.chrome.driver",
-				"C:/Selenium Training/eclipse-workspace/SeleniumDemoProject/drivers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 
 		driver.manage().window().maximize();
