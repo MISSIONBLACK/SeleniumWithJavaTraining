@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-25T07:51:46Z" name="Default suite" finished-at="2024-11-25T07:52:03Z" duration-ms="17435">
+  <suite started-at="2024-11-25T08:29:53Z" name="Default suite" finished-at="2024-11-25T08:30:11Z" duration-ms="17726">
     <groups>
     </groups>
-    <test started-at="2024-11-25T07:51:46Z" name="Default test" finished-at="2024-11-25T07:52:03Z" duration-ms="17435">
+    <test started-at="2024-11-25T08:29:53Z" name="Default test" finished-at="2024-11-25T08:30:11Z" duration-ms="17726">
       <class name="SeleniumWebDriverPart3.FileUpload">
-        <test-method is-config="true" signature="init()[pri:0, instance:SeleniumWebDriverPart3.FileUpload@45a37759]" started-at="2024-11-25T07:51:46Z" name="init" finished-at="2024-11-25T07:51:52Z" duration-ms="5732" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:SeleniumWebDriverPart3.FileUpload@45a37759]" started-at="2024-11-25T08:29:53Z" name="init" finished-at="2024-11-25T08:29:59Z" duration-ms="5910" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="uplaodFileTest()[pri:0, instance:SeleniumWebDriverPart3.FileUpload@45a37759]" started-at="2024-11-25T07:51:52Z" name="uplaodFileTest" finished-at="2024-11-25T07:52:03Z" duration-ms="11331" status="PASS">
+        <test-method signature="uplaodFileTest()[pri:0, instance:SeleniumWebDriverPart3.FileUpload@45a37759]" started-at="2024-11-25T08:29:59Z" name="uplaodFileTest" finished-at="2024-11-25T08:30:10Z" duration-ms="11433" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- uplaodFileTest -->
-        <test-method is-config="true" signature="finish()[pri:0, instance:SeleniumWebDriverPart3.FileUpload@45a37759]" started-at="2024-11-25T07:52:03Z" name="finish" finished-at="2024-11-25T07:52:03Z" duration-ms="353" status="PASS">
+        <test-method is-config="true" signature="finish()[pri:0, instance:SeleniumWebDriverPart3.FileUpload@45a37759]" started-at="2024-11-25T08:30:10Z" name="finish" finished-at="2024-11-25T08:30:11Z" duration-ms="356" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finish -->
