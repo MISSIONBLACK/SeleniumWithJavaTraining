@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="16" total="28" passed="11" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-03T08:30:13Z" name="Suite" finished-at="2024-12-03T08:39:42Z" duration-ms="568587">
+    <groups>
+    </groups>
+    <test started-at="2024-12-03T08:30:13Z" name="Add Stock Test" finished-at="2024-12-03T08:33:59Z" duration-ms="226204">
+      <class name="testCaseRediffPortfolio.managePortfolioTest">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testCaseRediffPortfolio.managePortfolioTest@181e731e]" started-at="2024-12-03T08:30:43Z" name="beforeMethod" finished-at="2024-12-03T08:30:43Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5cc126dc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="selectPortfolio(org.testng.ITestContext)[pri:0, instance:testCaseRediffPortfolio.managePortfolioTest@181e731e]" started-at="2024-12-03T08:30:43Z" name="selectPortfolio" finished-at="2024-12-03T08:30:49Z" duration-ms="5516" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5cc126dc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectPortfolio -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:testCaseRediffPortfolio.managePortfolioTest@181e731e]" started-at="2024-12-03T08:30:49Z" name="afterMethod" finished-at="2024-12-03T08:30:49Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5cc126dc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCaseRediffPortfolio.managePortfolioTest -->
+      <class name="testCaseRediffPortfolio.manageSessionTest">
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testCaseRediffPortfolio.manageSessionTest@36a5cabc]" started-at="2024-12-03T08:30:13Z" name="beforeTest" finished-at="2024-12-03T08:30:14Z" duration-ms="650" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5cc126dc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testCaseRediffPortfolio.manageSessionTest@36a5cabc]" started-at="2024-12-03T08:30:14Z" name="beforeMethod" finished-at="2024-12-03T08:30:14Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5cc126dc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="doLogin(org.testng.ITestContext)[pri:0, instance:testCaseRediffPortfolio.manageSessionTest@36a5cabc]" started-at="2024-12-03T08:30:14Z" name="doLogin" finished-at="2024-12-03T08:30:43Z" duration-ms="29554" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5cc126dc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:testCaseRediffPortfolio.manageSessionTest@36a5cabc]" started-at="2024-12-03T08:30:43Z" name="afterMethod" finished-at="2024-12-03T08:30:43Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5cc126dc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest(org.testng.ITestContext)[pri:0, instance:testCaseRediffPortfolio.manageSessionTest@36a5cabc]" started-at="2024-12-03T08:33:58Z" name="afterTest" finished-at="2024-12-03T08:33:59Z" duration-ms="1428" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5cc126dc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testCaseRediffPortfolio.manageSessionTest -->
+      <class name="testCaseRediffPortfolio.manageStocksTest">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testCaseRediffPortfolio.manageStocksTest@35645047]" started-at="2024-12-03T08:30:49Z" name="beforeMethod" finished-at="2024-12-03T08:30:49Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5cc126dc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="addStockTest()[pri:0, instance:testCaseRediffPortfolio.manageStocksTest@35645047]" started-at="2024-12-03T08:30:49Z" name="addStockTest" finished-at="2024-12-03T08:30:55Z" duration-ms="6103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addStockTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:testCaseRediffPortfolio.manageStocksTest@35645047]" started-at="2024-12-03T08:30:55Z" name="afterMethod" finished-at="2024-12-03T08:30:55Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5cc126dc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testCaseRediffPortfolio.manageStocksTest@35645047]" started-at="2024-12-03T08:30:55Z" name="beforeMethod" finished-at="2024-12-03T08:30:55Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5cc126dc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyStockIsPresent()[pri:0, instance:testCaseRediffPortfolio.manageStocksTest@35645047]" started-at="2024-12-03T08:30:55Z" name="verifyStockIsPresent" finished-at="2024-12-03T08:31:55Z" duration-ms="60210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStockIsPresent -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:testCaseRediffPortfolio.manageStocksTest@35645047]" started-at="2024-12-03T08:31:55Z" name="afterMethod" finished-at="2024-12-03T08:31:55Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5cc126dc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="verifyStockQuantity(java.lang.String, org.testng.ITestContext)[pri:0, instance:testCaseRediffPortfolio.manageStocksTest@35645047]" started-at="2024-12-03T08:31:55Z" name="verifyStockQuantity" finished-at="2024-12-03T08:32:55Z" duration-ms="60210" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ addStock]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@5cc126dc]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.lang.Integer.intValue()" because the return value of "org.testng.ITestContext.getAttribute(String)" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "org.testng.ITestContext.getAttribute(String)" is null
+at testCaseRediffPortfolio.manageStocksTest.verifyStockQuantity(manageStocksTest.java:72)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStockQuantity -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testCaseRediffPortfolio.manageStocksTest@35645047]" started-at="2024-12-03T08:31:55Z" name="beforeMethod" finished-at="2024-12-03T08:31:55Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5cc126dc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:testCaseRediffPortfolio.manageStocksTest@35645047]" started-at="2024-12-03T08:32:55Z" name="afterMethod" finished-at="2024-12-03T08:32:55Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5cc126dc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testCaseRediffPortfolio.manageStocksTest@35645047]" started-at="2024-12-03T08:32:55Z" name="beforeMethod" finished-at="2024-12-03T08:32:55Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5cc126dc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyTransactionHistory(java.lang.String, org.testng.ITestContext)[pri:0, instance:testCaseRediffPortfolio.manageStocksTest@35645047]" started-at="2024-12-03T08:32:55Z" name="verifyTransactionHistory" finished-at="2024-12-03T08:33:58Z" duration-ms="62484" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ addStock]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@5cc126dc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTransactionHistory -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:testCaseRediffPortfolio.manageStocksTest@35645047]" started-at="2024-12-03T08:33:58Z" name="afterMethod" finished-at="2024-12-03T08:33:58Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5cc126dc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCaseRediffPortfolio.manageStocksTest -->
+    </test> <!-- Add Stock Test -->
+    <test started-at="2024-12-03T08:33:59Z" name="Modify Stock Test -- Sell Stock" finished-at="2024-12-03T08:39:42Z" duration-ms="342313">
+      <class name="testCaseRediffPortfolio.managePortfolioTest">
+        <test-method signature="selectPortfolio(org.testng.ITestContext)[pri:0, instance:testCaseRediffPortfolio.managePortfolioTest@4f3bbf68]" started-at="2024-12-03T08:34:28Z" name="selectPortfolio" finished-at="2024-12-03T08:34:33Z" duration-ms="5601" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@376c7d7d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectPortfolio -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testCaseRediffPortfolio.managePortfolioTest@4f3bbf68]" started-at="2024-12-03T08:34:28Z" name="beforeMethod" finished-at="2024-12-03T08:34:28Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@376c7d7d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:testCaseRediffPortfolio.managePortfolioTest@4f3bbf68]" started-at="2024-12-03T08:34:33Z" name="afterMethod" finished-at="2024-12-03T08:34:33Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@376c7d7d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCaseRediffPortfolio.managePortfolioTest -->
+      <class name="testCaseRediffPortfolio.manageSessionTest">
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testCaseRediffPortfolio.manageSessionTest@7164ca4c]" started-at="2024-12-03T08:33:59Z" name="beforeTest" finished-at="2024-12-03T08:33:59Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@376c7d7d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testCaseRediffPortfolio.manageSessionTest@7164ca4c]" started-at="2024-12-03T08:33:59Z" name="beforeMethod" finished-at="2024-12-03T08:33:59Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@376c7d7d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="doLogin(org.testng.ITestContext)[pri:0, instance:testCaseRediffPortfolio.manageSessionTest@7164ca4c]" started-at="2024-12-03T08:33:59Z" name="doLogin" finished-at="2024-12-03T08:34:28Z" duration-ms="28575" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@376c7d7d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:testCaseRediffPortfolio.manageSessionTest@7164ca4c]" started-at="2024-12-03T08:34:28Z" name="afterMethod" finished-at="2024-12-03T08:34:28Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@376c7d7d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest(org.testng.ITestContext)[pri:0, instance:testCaseRediffPortfolio.manageSessionTest@7164ca4c]" started-at="2024-12-03T08:39:41Z" name="afterTest" finished-at="2024-12-03T08:39:42Z" duration-ms="966" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@376c7d7d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testCaseRediffPortfolio.manageSessionTest -->
+      <class name="testCaseRediffPortfolio.manageStocksTest">
+        <test-method signature="verifyStockIsPresent()[pri:0, instance:testCaseRediffPortfolio.manageStocksTest@5be46f9d]" started-at="2024-12-03T08:34:33Z" name="verifyStockIsPresent" finished-at="2024-12-03T08:35:34Z" duration-ms="60332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStockIsPresent -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testCaseRediffPortfolio.manageStocksTest@5be46f9d]" started-at="2024-12-03T08:34:33Z" name="beforeMethod" finished-at="2024-12-03T08:34:33Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@376c7d7d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:testCaseRediffPortfolio.manageStocksTest@5be46f9d]" started-at="2024-12-03T08:35:34Z" name="afterMethod" finished-at="2024-12-03T08:35:34Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@376c7d7d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testCaseRediffPortfolio.manageStocksTest@5be46f9d]" started-at="2024-12-03T08:35:34Z" name="beforeMethod" finished-at="2024-12-03T08:35:34Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@376c7d7d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="modifyStock(org.testng.ITestContext)[pri:0, instance:testCaseRediffPortfolio.manageStocksTest@5be46f9d]" started-at="2024-12-03T08:35:34Z" name="modifyStock" finished-at="2024-12-03T08:37:38Z" duration-ms="123981" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@376c7d7d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyStock -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testCaseRediffPortfolio.manageStocksTest@5be46f9d]" started-at="2024-12-03T08:37:38Z" name="beforeMethod" finished-at="2024-12-03T08:37:38Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@376c7d7d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:testCaseRediffPortfolio.manageStocksTest@5be46f9d]" started-at="2024-12-03T08:37:38Z" name="afterMethod" finished-at="2024-12-03T08:37:38Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@376c7d7d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="verifyStockQuantity(java.lang.String, org.testng.ITestContext)[pri:0, instance:testCaseRediffPortfolio.manageStocksTest@5be46f9d]" started-at="2024-12-03T08:37:38Z" name="verifyStockQuantity" finished-at="2024-12-03T08:38:38Z" duration-ms="60213" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ sellStock]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@376c7d7d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStockQuantity -->
+        <test-method signature="verifyTransactionHistory(java.lang.String, org.testng.ITestContext)[pri:0, instance:testCaseRediffPortfolio.manageStocksTest@5be46f9d]" started-at="2024-12-03T08:38:38Z" name="verifyTransactionHistory" finished-at="2024-12-03T08:39:41Z" duration-ms="62623" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ sellStock]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@376c7d7d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTransactionHistory -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:testCaseRediffPortfolio.manageStocksTest@5be46f9d]" started-at="2024-12-03T08:38:38Z" name="afterMethod" finished-at="2024-12-03T08:38:38Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@376c7d7d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testCaseRediffPortfolio.manageStocksTest@5be46f9d]" started-at="2024-12-03T08:38:38Z" name="beforeMethod" finished-at="2024-12-03T08:38:38Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@376c7d7d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:testCaseRediffPortfolio.manageStocksTest@5be46f9d]" started-at="2024-12-03T08:39:41Z" name="afterMethod" finished-at="2024-12-03T08:39:41Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@376c7d7d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCaseRediffPortfolio.manageStocksTest -->
+    </test> <!-- Modify Stock Test - Sell Stock -->
+  </suite> <!-- Suite -->
+</testng-results>

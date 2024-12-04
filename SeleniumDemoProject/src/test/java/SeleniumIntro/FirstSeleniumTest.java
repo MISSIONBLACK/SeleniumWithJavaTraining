@@ -11,7 +11,7 @@ public class FirstSeleniumTest {
 		System.out.println("First Project");
 		
 		// Set the path to the ChromeDriver executable
-		System.setProperty("webdriver.chrome.driver", "C:/Selenium Training/eclipse-workspace/SeleniumDemoProject/drivers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver.exe");
 		
 		// Create a new instance of the ChromeDriver
 		ChromeDriver driver = new ChromeDriver();

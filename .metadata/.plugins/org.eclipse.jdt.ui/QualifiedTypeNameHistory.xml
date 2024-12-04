@@ -30,4 +30,6 @@
     <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="org.junit.Test"/>
+    <fullyQualifiedTypeName name="testBase.baseTest"/>
+    <fullyQualifiedTypeName name="org.testng.asserts.SoftAssert"/>
 </qualifiedTypeNameHistroy>

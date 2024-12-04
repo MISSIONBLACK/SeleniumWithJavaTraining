@@ -26,7 +26,7 @@ public class InvokeDynamicBrowser {
 
 		if (browser.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver",
-					"C:/Selenium Training/eclipse-workspace/SeleniumDemoProject/drivers/chromedriver.exe");
+					System.getProperty("user.dir") + "/drivers/chromedriver.exe");
 
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--start-maximized", "--disable-infobars");
@@ -47,7 +47,7 @@ public class InvokeDynamicBrowser {
 			driver = new EdgeDriver();
 		} else {
 			System.setProperty("webdriver.chrome.driver",
-					"C:/Selenium Training/eclipse-workspace/SeleniumDemoProject/drivers/chromedriver.exe");
+					System.getProperty("user.dir") + "/drivers/chromedriver.exe");
 			driver = new ChromeDriver();
 		}
 

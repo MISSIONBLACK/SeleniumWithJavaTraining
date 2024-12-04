@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Selenium Training\eclipse-workspace\DataDrivenFramework\src\test\resources\StockManage.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods, 1 failed,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCaseRediffPortfolio.manageStocksTest" class="method navigator-link" hash-for-method="verifyStockQuantity( addStock, org.testng.TestRunner@5cc126dc)">verifyStockQuantity( addStock, org.testng.TestRunner@5cc126dc)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCaseRediffPortfolio.manageStocksTest" class="method navigator-link" hash-for-method="addStockTest">addStockTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCaseRediffPortfolio.manageSessionTest" class="method navigator-link" hash-for-method="doLogin(org.testng.TestRunner@5cc126dc)">doLogin(org.testng.TestRunner@5cc126dc)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCaseRediffPortfolio.manageSessionTest" class="method navigator-link" hash-for-method="doLogin(org.testng.TestRunner@376c7d7d)">doLogin(org.testng.TestRunner@376c7d7d)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCaseRediffPortfolio.manageStocksTest" class="method navigator-link" hash-for-method="modifyStock(org.testng.TestRunner@376c7d7d)">modifyStock(org.testng.TestRunner@376c7d7d)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCaseRediffPortfolio.managePortfolioTest" class="method navigator-link" hash-for-method="selectPortfolio(org.testng.TestRunner@5cc126dc)">selectPortfolio(org.testng.TestRunner@5cc126dc)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCaseRediffPortfolio.managePortfolioTest" class="method navigator-link" hash-for-method="selectPortfolio(org.testng.TestRunner@376c7d7d)">selectPortfolio(org.testng.TestRunner@376c7d7d)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCaseRediffPortfolio.manageStocksTest" class="method navigator-link" hash-for-method="verifyStockIsPresent">verifyStockIsPresent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCaseRediffPortfolio.manageStocksTest" class="method navigator-link" hash-for-method="verifyStockIsPresent">verifyStockIsPresent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCaseRediffPortfolio.manageStocksTest" class="method navigator-link" hash-for-method="verifyStockQuantity( sellStock, org.testng.TestRunner@376c7d7d)">verifyStockQuantity( sellStock, org.testng.TestRunner@376c7d7d)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCaseRediffPortfolio.manageStocksTest" class="method navigator-link" hash-for-method="verifyTransactionHistory( addStock, org.testng.TestRunner@5cc126dc)">verifyTransactionHistory( addStock, org.testng.TestRunner@5cc126dc)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCaseRediffPortfolio.manageStocksTest" class="method navigator-link" hash-for-method="verifyTransactionHistory( sellStock, org.testng.TestRunner@376c7d7d)">verifyTransactionHistory( sellStock, org.testng.TestRunner@376c7d7d)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCaseRediffPortfolio.manageStocksTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyStockQuantity( addStock, org.testng.TestRunner@5cc126dc)">
+                  </a> <!-- verifyStockQuantity( addStock, org.testng.TestRunner@5cc126dc) -->
+                  <span class="method-name">verifyStockQuantity</span>
+                  <span class="parameters">( addStock, org.testng.TestRunner@5cc126dc)</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;java.lang.Integer.intValue()&quot; because the return value of &quot;org.testng.ITestContext.getAttribute(String)&quot; is null
+	at testCaseRediffPortfolio.manageStocksTest.verifyStockQuantity(manageStocksTest.java:72)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCaseRediffPortfolio.manageSessionTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="doLogin(org.testng.TestRunner@5cc126dc)">
+                  </a> <!-- doLogin(org.testng.TestRunner@5cc126dc) -->
+                  <span class="method-name">doLogin</span>
+                  <span class="parameters">(org.testng.TestRunner@5cc126dc)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doLogin(org.testng.TestRunner@376c7d7d)">
+                  </a> <!-- doLogin(org.testng.TestRunner@376c7d7d) -->
+                  <span class="method-name">doLogin</span>
+                  <span class="parameters">(org.testng.TestRunner@376c7d7d)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCaseRediffPortfolio.managePortfolioTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectPortfolio(org.testng.TestRunner@5cc126dc)">
+                  </a> <!-- selectPortfolio(org.testng.TestRunner@5cc126dc) -->
+                  <span class="method-name">selectPortfolio</span>
+                  <span class="parameters">(org.testng.TestRunner@5cc126dc)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectPortfolio(org.testng.TestRunner@376c7d7d)">
+                  </a> <!-- selectPortfolio(org.testng.TestRunner@376c7d7d) -->
+                  <span class="method-name">selectPortfolio</span>
+                  <span class="parameters">(org.testng.TestRunner@376c7d7d)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCaseRediffPortfolio.manageStocksTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addStockTest">
+                  </a> <!-- addStockTest -->
+                  <span class="method-name">addStockTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="modifyStock(org.testng.TestRunner@376c7d7d)">
+                  </a> <!-- modifyStock(org.testng.TestRunner@376c7d7d) -->
+                  <span class="method-name">modifyStock</span>
+                  <span class="parameters">(org.testng.TestRunner@376c7d7d)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyStockIsPresent">
+                  </a> <!-- verifyStockIsPresent -->
+                  <span class="method-name">verifyStockIsPresent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyStockIsPresent">
+                  </a> <!-- verifyStockIsPresent -->
+                  <span class="method-name">verifyStockIsPresent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyStockQuantity( sellStock, org.testng.TestRunner@376c7d7d)">
+                  </a> <!-- verifyStockQuantity( sellStock, org.testng.TestRunner@376c7d7d) -->
+                  <span class="method-name">verifyStockQuantity</span>
+                  <span class="parameters">( sellStock, org.testng.TestRunner@376c7d7d)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTransactionHistory( addStock, org.testng.TestRunner@5cc126dc)">
+                  </a> <!-- verifyTransactionHistory( addStock, org.testng.TestRunner@5cc126dc) -->
+                  <span class="method-name">verifyTransactionHistory</span>
+                  <span class="parameters">( addStock, org.testng.TestRunner@5cc126dc)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTransactionHistory( sellStock, org.testng.TestRunner@376c7d7d)">
+                  </a> <!-- verifyTransactionHistory( sellStock, org.testng.TestRunner@376c7d7d) -->
+                  <span class="method-name">verifyTransactionHistory</span>
+                  <span class="parameters">( sellStock, org.testng.TestRunner@376c7d7d)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Selenium Training\eclipse-workspace\DataDrivenFramework\src\test\resources\StockManage.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Listeners.testListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Add Stock Test&quot;&gt;
+    &lt;parameter name=&quot;action&quot; value=&quot; addStock&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCaseRediffPortfolio.manageSessionTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;doLogin&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testCaseRediffPortfolio.manageSessionTest --&gt;
+      &lt;class name=&quot;testCaseRediffPortfolio.managePortfolioTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;selectPortfolio&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testCaseRediffPortfolio.managePortfolioTest --&gt;
+      &lt;class name=&quot;testCaseRediffPortfolio.manageStocksTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;addStockTest&quot;/&gt;
+          &lt;include name=&quot;verifyStockIsPresent&quot;/&gt;
+          &lt;include name=&quot;verifyStockQuantity&quot;/&gt;
+          &lt;include name=&quot;verifyTransactionHistory&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testCaseRediffPortfolio.manageStocksTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Add Stock Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Modify Stock Test -- Sell Stock&quot;&gt;
+    &lt;parameter name=&quot;action&quot; value=&quot; sellStock&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCaseRediffPortfolio.manageSessionTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;doLogin&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testCaseRediffPortfolio.manageSessionTest --&gt;
+      &lt;class name=&quot;testCaseRediffPortfolio.managePortfolioTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;selectPortfolio&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testCaseRediffPortfolio.managePortfolioTest --&gt;
+      &lt;class name=&quot;testCaseRediffPortfolio.manageStocksTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verifyStockIsPresent&quot;/&gt;
+          &lt;include name=&quot;modifyStock&quot;/&gt;
+          &lt;include name=&quot;verifyStockIsPresent&quot;/&gt;
+          &lt;include name=&quot;verifyStockQuantity&quot;/&gt;
+          &lt;include name=&quot;verifyTransactionHistory&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testCaseRediffPortfolio.manageStocksTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Modify Stock Test - Sell Stock --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Add Stock Test (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Modify Stock Test -- Sell Stock (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'modifyStock')
+data.setCell(0, 2, 'testCaseRediffPortfolio.manageStocksTest')
+data.setCell(0, 3, 123981);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyTransactionHistory')
+data.setCell(1, 2, 'testCaseRediffPortfolio.manageStocksTest')
+data.setCell(1, 3, 62623);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyTransactionHistory')
+data.setCell(2, 2, 'testCaseRediffPortfolio.manageStocksTest')
+data.setCell(2, 3, 62484);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyStockIsPresent')
+data.setCell(3, 2, 'testCaseRediffPortfolio.manageStocksTest')
+data.setCell(3, 3, 60332);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyStockQuantity')
+data.setCell(4, 2, 'testCaseRediffPortfolio.manageStocksTest')
+data.setCell(4, 3, 60213);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyStockIsPresent')
+data.setCell(5, 2, 'testCaseRediffPortfolio.manageStocksTest')
+data.setCell(5, 3, 60210);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyStockQuantity')
+data.setCell(6, 2, 'testCaseRediffPortfolio.manageStocksTest')
+data.setCell(6, 3, 60210);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'doLogin')
+data.setCell(7, 2, 'testCaseRediffPortfolio.manageSessionTest')
+data.setCell(7, 3, 29554);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'doLogin')
+data.setCell(8, 2, 'testCaseRediffPortfolio.manageSessionTest')
+data.setCell(8, 3, 28575);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'addStockTest')
+data.setCell(9, 2, 'testCaseRediffPortfolio.manageStocksTest')
+data.setCell(9, 3, 6103);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'selectPortfolio')
+data.setCell(10, 2, 'testCaseRediffPortfolio.managePortfolioTest')
+data.setCell(10, 3, 5601);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'selectPortfolio')
+data.setCell(11, 2, 'testCaseRediffPortfolio.managePortfolioTest')
+data.setCell(11, 3, 5516);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 9 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">16 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCaseRediffPortfolio.manageSessionTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">doLogOut</span>
+                <br/>
+                <span class="ignored-method-name">doLogOut</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCaseRediffPortfolio.managePortfolioTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">createPortfolio</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">createPortfolio</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">deletePortfolio</span>
+                <br/>
+                <span class="ignored-method-name">deletePortfolio</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCaseRediffPortfolio.manageStocksTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">addStockTest</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">modifyStock</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCaseRediffPortfolio.manageSessionTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(org.testng.TestRunner@5cc126dc)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@5cc126dc)</span>
+                <span class="method-start">670 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">doLogin(org.testng.TestRunner@5cc126dc)</span>
+                <span class="method-start">670 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@5cc126dc)</span>
+                <span class="method-start">30227 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCaseRediffPortfolio.managePortfolioTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@5cc126dc)</span>
+                <span class="method-start">30231 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">selectPortfolio(org.testng.TestRunner@5cc126dc)</span>
+                <span class="method-start">30231 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@5cc126dc)</span>
+                <span class="method-start">35750 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCaseRediffPortfolio.manageStocksTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@5cc126dc)</span>
+                <span class="method-start">35751 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addStockTest</span>
+                <span class="method-start">35753 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@5cc126dc)</span>
+                <span class="method-start">41858 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@5cc126dc)</span>
+                <span class="method-start">41858 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyStockIsPresent</span>
+                <span class="method-start">41859 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@5cc126dc)</span>
+                <span class="method-start">102070 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@5cc126dc)</span>
+                <span class="method-start">102072 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyStockQuantity( addStock, org.testng.TestRunner@5cc126dc)</span>
+                <span class="method-start">102072 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@5cc126dc)</span>
+                <span class="method-start">162286 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@5cc126dc)</span>
+                <span class="method-start">162287 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTransactionHistory( addStock, org.testng.TestRunner@5cc126dc)</span>
+                <span class="method-start">162287 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@5cc126dc)</span>
+                <span class="method-start">224772 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCaseRediffPortfolio.manageSessionTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest(org.testng.TestRunner@5cc126dc)</span>
+                <span class="method-start">224772 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(org.testng.TestRunner@376c7d7d)</span>
+                <span class="method-start">226273 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@376c7d7d)</span>
+                <span class="method-start">226277 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">doLogin(org.testng.TestRunner@376c7d7d)</span>
+                <span class="method-start">226278 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@376c7d7d)</span>
+                <span class="method-start">254855 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCaseRediffPortfolio.managePortfolioTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@376c7d7d)</span>
+                <span class="method-start">254856 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">selectPortfolio(org.testng.TestRunner@376c7d7d)</span>
+                <span class="method-start">254856 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@376c7d7d)</span>
+                <span class="method-start">260458 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCaseRediffPortfolio.manageStocksTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@376c7d7d)</span>
+                <span class="method-start">260459 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyStockIsPresent</span>
+                <span class="method-start">260459 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@376c7d7d)</span>
+                <span class="method-start">320793 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@376c7d7d)</span>
+                <span class="method-start">320794 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">modifyStock(org.testng.TestRunner@376c7d7d)</span>
+                <span class="method-start">320794 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@376c7d7d)</span>
+                <span class="method-start">444777 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@376c7d7d)</span>
+                <span class="method-start">444777 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyStockQuantity( sellStock, org.testng.TestRunner@376c7d7d)</span>
+                <span class="method-start">444778 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@376c7d7d)</span>
+                <span class="method-start">504992 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(org.testng.TestRunner@376c7d7d)</span>
+                <span class="method-start">504992 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTransactionHistory( sellStock, org.testng.TestRunner@376c7d7d)</span>
+                <span class="method-start">504992 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@376c7d7d)</span>
+                <span class="method-start">567616 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCaseRediffPortfolio.manageSessionTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest(org.testng.TestRunner@376c7d7d)</span>
+                <span class="method-start">567617 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

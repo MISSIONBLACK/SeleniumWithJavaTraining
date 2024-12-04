@@ -1,18 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="testData"/>
+		<item key="selection" value="testListeners"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="MyTestNGListener"/>
+			<item value="listner"/>
+			<item value="testcasesrediffPortfolio"/>
+			<item value="findCurrentStockQuantity"/>
+			<item value="YES Bank Ltd"/>
+			<item value="acceptAlert"/>
+			<item value="reportFailure"/>
+			<item value="driver.findElement(By.id"/>
+			<item value="displayDate_xpath"/>
+			<item value="datePickerFromDropDownCalendar"/>
+			<item value="selectfromDropDown"/>
+			<item value="datFormat"/>
+			<item value="wait"/>
+			<item value="dobCalendar_id"/>
 			<item value="testdata"/>
-			<item value="testData"/>
-			<item value="Exercise"/>
 		</list>
 		<list key="replacehistory">
+			<item value="testListeners"/>
+			<item value="Listeners"/>
+			<item value="testCaseRediffPortfolio"/>
+			<item value="YES Bank"/>
+			<item value="getElement"/>
+			<item value="dateFormat"/>
+			<item value="dobCalendar_xpath"/>
 			<item value="testData"/>
 			<item value="testdata"/>
 			<item value="Exercise1"/>

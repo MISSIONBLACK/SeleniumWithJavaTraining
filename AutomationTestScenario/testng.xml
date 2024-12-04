@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="PilotProject.ExtractingDataFromCalendar"/>
+      <class name="SeleniumWebDriverPart2.TakeScreenShot"/>
+      <class name="SeleniumWebDriverPart2.HandleMultipleTabs"/>
+      <class name="seleniumWaits.HardCodedWaits"/>
+      <class name="SeleniumIntro.FirstSeleniumTest"/>
+      <class name="SeleniumWebDriverPart1.ExtractMultipleElements"/>
+      <class name="browsers.SeleniumMultipleBrowsers"/>
+      <class name="seleniumWaits.SeleniumImplicitWaits"/>
+      <class name="SeleniumWebDriverPart2.HandleMouseHover"/>
+      <class name="PilotProject.appointmentOnDemand"/>
+      <class name="browsers.BrowserOptions"/>
+      <class name="SeleniumWebDriverPart1.FindBrokenLinks"/>
+      <class name="SeleniumWebDriverPart1.handlingIFrames"/>
+      <class name="WebElements.CNNTest"/>
+      <class name="WebElements.FindElementClass"/>
+      <class name="SeleniumWebDriverPart2.HandleDragAndDrop"/>
+      <class name="SeleniumWebDriverPart2.HandleAlerts"/>
+      <class name="SeleniumWebDriverPart1.ExtractTextFromWebElement"/>
+      <class name="SeleniumWebDriverPart2.HandleDropDown"/>
+      <class name="SeleniumWebDriverPart2.HandleRadioButtons"/>
+      <class name="WebElements.FindElementsClass"/>
+      <class name="seleniumWaits.SeleniumExpicitlyWaits"/>
+      <class name="SeleniumWebDriverPart3.FileUpload"/>
+      <class name="WebElements.RediffSignInTest"/>
+      <class name="SeleniumWebDriverPart1.VerifyElementsVisibility"/>
+      <class name="SeleniumWebDriverPart1.ExtractWebPagePart"/>
+      <class name="WebElements.XpathClass"/>
+      <class name="SeleniumWebDriverPart3.HandleJSExecutor"/>
+      <class name="PilotProject.BookAppointment"/>
+      <class name="SeleniumWebDriverPart3.WebTableOperations"/>
+      <class name="browsers.InvokeDynamicBrowser"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
