@@ -1,0 +1,30 @@
+{
+	"classdetails": [
+		{
+			"class": "testCaseRediffPortfolio.manageSessionTest",
+			"methods": [
+				"doLogin",
+				"doLogOut"
+			]
+		},
+		{
+			"class": "testCaseRediffPortfolio.managePortfolioTest",
+			"methods": [
+				"createPortfolio",
+				"deletePortfolio",
+				"selectPortfolio"
+			]
+		},
+		{
+			"class": "testCaseRediffPortfolio.manageStocksTest",
+			"methods": [
+				"modifyStock",
+				"verifyStockQuantity",
+				"verifyTransactionHistory",
+				"addStockTest",
+				"verifyStockIsPresent",
+				"modifyStockTest"
+			]
+		}
+	]
+}

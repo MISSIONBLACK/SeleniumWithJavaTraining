@@ -1,29 +1,26 @@
 package testCaseRediffPortfolio;
 
+import org.json.simple.JSONObject;
 import org.testng.ITestContext;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-import testBase.baseTest;
 
-public class manageStocksTest extends baseTest {
+import testBase.BaseTest;
+
+public class manageStocksTest extends BaseTest {
 
 	@Test
-	public void addStockTest() {
-//		JSONObject data = (JSONObject) context.getAttribute("testData");
-//		String companyName = (String) data.get("companyName");
-//		String stockQuantity = (String) data.get("stockQuantity");
-//		String stockPrice = (String) data.get("stockPrice");
-//		String selectionDate = (String) data.get("selectionDate");
-
-		String companyName = "YES Bank";
-		String selectionDate = "01-12-2024";
-		String stockQuantity = "200";
-		String stockPrice = "100";
+	public void addStockTest(ITestContext context) {
+		JSONObject data = (JSONObject) context.getAttribute("testData");
+		String companyName = (String) data.get("companyName");
+		String stockQuantity = (String) data.get("stockQuantity");
+		String stockPrice = (String) data.get("stockPrice");
+		String selectionDate = (String) data.get("selectionDate");
 
 		app.logInfo("Selecting Stocks in Portfolio");
 
-//		int quantityBeforeSelling = app.findCurrentStockQuantity(companyName);
-//		context.setAttribute("quantityBeforeSelling", quantityBeforeSelling);
+		int quantityBeforeSelling = app.findCurrentStockQuantity(companyName);
+		context.setAttribute("quantityBeforeSelling", quantityBeforeSelling);
 
 		app.click("addStock_id");
 		app.type("addstockname_id", companyName);
@@ -35,16 +32,13 @@ public class manageStocksTest extends baseTest {
 		app.type("addstockprice_id", stockPrice);
 		app.click("addStockButton_id");
 		app.waitforWebPageToLoad();
-
 		app.logInfo("Stock Added Successfully....");
-
 	}
 
 	@Test
-	public void verifyStockIsPresent() {
-//		JSONObject data = (JSONObject) context.getAttribute("testData");
-//		String companyName = (String) data.get("companyName");
-		String companyName = "YES Bank";
+	public void verifyStockIsPresent(ITestContext context) {
+		JSONObject data = (JSONObject) context.getAttribute("testData");
+		String companyName = (String) data.get("companyName");
 
 		app.logInfo("Verifying Added Stock in Portfolio...");
 		int rowNum = app.getRowNumWithCellData("stockTable_id", companyName);
@@ -58,12 +52,10 @@ public class manageStocksTest extends baseTest {
 	@Parameters({ "action" })
 	@Test
 	public void verifyStockQuantity(String action, ITestContext context) {
-//		JSONObject data = (JSONObject) context.getAttribute("testData");
-//		String companyName = (String) data.get("companyName");
-//		int modifiedQuantity = Integer.parseInt((String) data.get("stockQuantity"));
+		JSONObject data = (JSONObject) context.getAttribute("testData");
+		String companyName = (String) data.get("companyName");
+		int modifiedQuantity = Integer.parseInt((String) data.get("stockQuantity"));
 		int expectedModifiedQuantity = 0;
-		String companyName = "YES Bank";
-		int modifiedQuantity = 0;
 
 		app.logInfo("Verify Stock Quantity After Action :: " + action);
 		int quantity = app.findCurrentStockQuantity(companyName);
@@ -89,7 +81,8 @@ public class manageStocksTest extends baseTest {
 	@Parameters({ "action" })
 	@Test
 	public void verifyTransactionHistory(String action, ITestContext context) {
-		String companyName = "YES Bank";
+		JSONObject data = (JSONObject) context.getAttribute("testData");
+		String companyName = (String) data.get("companyName");
 
 		app.logInfo("Verify Stock Transaction History after operation :: " + action);
 		app.openTransactionHistory(companyName);
@@ -103,10 +96,11 @@ public class manageStocksTest extends baseTest {
 
 	@Test
 	public void modifyStock(ITestContext context) {
-		String companyName = "YES Bank";
-		String selectionDate = "02-12-2024";
-		String stockQuantity = "100";
-		String stockPrice = "150";
+		JSONObject data = (JSONObject) context.getAttribute("testData");
+		String companyName = (String) data.get("companyName");
+		String selectionDate = (String) data.get("selectionDate");
+		String stockQuantity = (String) data.get("stockQuantity");
+		String stockPrice = (String) data.get("stockPrice");
 
 		app.logInfo("Selling Quantity : " + stockQuantity + " of Stock :: " + companyName);
 

@@ -1,0 +1,42 @@
+{
+	"testdata": [
+		{
+			"flag": "createnewportfolio",
+			"data": [
+				{
+					"portfolioname": "port100",
+					"runmode": "Yes"
+				},
+				{
+					"portfolioname": "port200",
+					"runmode": "No"
+				},
+				{
+					"portfolioname": "port300",
+					"runmode": "No"
+				},
+				{
+					"portfolioname": "port400",
+					"runmode": "No"
+				}
+			]
+		},
+		{
+			"flag": "deletenewportfolio",
+			"data": [
+				{
+					"portfolioname": "port100",
+					"runmode": "No"
+				},
+				{
+					"portfolioname": "port200",
+					"runmode": "No"
+				},
+				{
+					"portfolioname": "port300",
+					"runmode": "No"
+				}
+			]
+		}
+	]
+}

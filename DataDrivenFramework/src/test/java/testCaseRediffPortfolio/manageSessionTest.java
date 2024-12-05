@@ -2,10 +2,12 @@ package testCaseRediffPortfolio;
 
 import org.testng.ITestContext;
 import org.testng.annotations.Test;
-import com.aventstack.extentreports.Status;
-import testBase.baseTest;
 
-public class manageSessionTest extends baseTest {
+import com.aventstack.extentreports.Status;
+
+import testBase.BaseTest;
+
+public class manageSessionTest extends BaseTest {
 
 	@Test
 	public void doLogin(ITestContext con) {

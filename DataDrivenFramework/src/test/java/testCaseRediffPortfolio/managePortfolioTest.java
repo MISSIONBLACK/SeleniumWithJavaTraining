@@ -1,16 +1,17 @@
 package testCaseRediffPortfolio;
 
+import org.json.simple.JSONObject;
 import org.testng.ITestContext;
 import org.testng.annotations.Test;
-import testBase.baseTest;
 
-public class managePortfolioTest extends baseTest {
+import testBase.BaseTest;
+
+public class managePortfolioTest extends BaseTest {
 
 	@Test
 	public void createPortfolio(ITestContext context) {
-//		JSONObject data = (JSONObject) context.getAttribute("testData");
-//		String portfolioName = (String) data.get("portfolioname");
-		String portfolioName = "MyPortfolio_999";
+		JSONObject data = (JSONObject) context.getAttribute("testData");
+		String portfolioName = (String) data.get("portfolioname");
 		
 		app.logInfo("Creating Portfolio :: " + portfolioName);
 		app.click("createPortfolio_id");
@@ -23,9 +24,8 @@ public class managePortfolioTest extends baseTest {
 
 	@Test
 	public void deletePortfolio(ITestContext context) {
-//		JSONObject data = (JSONObject) context.getAttribute("testData");
-//		String portfolioName = (String) data.get("portfolioname");
-		String portfolioName = "My Portfolio";
+		JSONObject data = (JSONObject) context.getAttribute("testData");
+		String portfolioName = (String) data.get("portfolioname");
 		
 		app.logInfo("Deleting Porfolio :: " + portfolioName);
 		app.selectByVisibleText("portfolio_dropdown_id", portfolioName);
@@ -38,7 +38,8 @@ public class managePortfolioTest extends baseTest {
 	
 	@Test
 	public void selectPortfolio(ITestContext context) {
-		String portfolioName = "MyPortfolio_999";
+		JSONObject data = (JSONObject) context.getAttribute("testData");
+		String portfolioName = (String) data.get("portfolioname");
 		
 		app.logInfo("Selecting Portfolio :: " + portfolioName);
 		app.selectByVisibleText("portfolio_dropdown_id", portfolioName);

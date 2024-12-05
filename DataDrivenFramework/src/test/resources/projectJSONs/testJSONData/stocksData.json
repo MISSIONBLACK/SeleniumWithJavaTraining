@@ -1,0 +1,59 @@
+{
+	"testdata": [
+		{
+			"flag": "addfreshstock",
+			"data": [
+				{
+					"portfolioname": "Portfolio50",
+					"companyName": "HDFC Bank",
+					"selectionDate": "01-12-2024",
+					"stockQuantity": "2000",
+					"stockPrice": "300",
+					"runmode": "No"
+				},
+				{
+					"portfolioname": "Portfolio50",
+					"companyName": "Kotak Mahindra Bank",
+					"selectionDate": "02-12-2024",
+					"stockQuantity": "2000",
+					"stockPrice": "600",
+					"runmode": "No"
+				}
+			]
+		},
+		{
+			"flag": "sellexistingstock",
+			"data": [
+				{
+					"portfolioname": "Portfolio50",
+					"companyName": "HDFC Bank",
+					"selectionDate": "03-12-2024",
+					"stockQuantity": "100",
+					"stockPrice": "400",
+					"runmode": "No"
+				}
+			]
+		},
+		{
+			"flag": "addexistingstock",
+			"data": [
+				{
+					"portfolioname": "Portfolio50",
+					"companyName": "HDFC Bank",
+					"selectionDate": "04-02-2024",
+					"stockQuantity": "1000",
+					"stockPrice": "400",
+					"runmode": "No"
+				},
+				{
+					"portfolioname": "Portfolio50",
+					"companyName": "Kotak Mahindra Bank",
+					"selectionDate": "30-11-2024",
+					"stockQuantity": "1000",
+					"stockPrice": "500",
+					"runmode": "No"
+				}
+			]
+		}
+	]
+}

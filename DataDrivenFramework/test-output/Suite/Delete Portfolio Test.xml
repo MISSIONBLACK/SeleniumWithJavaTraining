@@ -6,13 +6,13 @@
   <testcase classname="testCaseRediffPortfolio.managePortfolioTest" name="createPortfolio" time="0.0">
     <ignored/>
   </testcase> <!-- createPortfolio -->
-  <testcase classname="testBase.baseTest" name="@AfterTest afterTest" time="0.0">
+  <testcase classname="testBase.BaseTest" name="@AfterTest afterTest" time="0.0">
     <ignored/>
   </testcase> <!-- @AfterTest afterTest -->
   <testcase classname="testCaseRediffPortfolio.manageSessionTest" name="doLogOut" time="0.0">
     <ignored/>
   </testcase> <!-- doLogOut -->
-  <testcase classname="testBase.baseTest" name="@BeforeTest beforeTest" time="0.0">
+  <testcase classname="testBase.BaseTest" name="@BeforeTest beforeTest" time="0.0">
     <ignored/>
   </testcase> <!-- @BeforeTest beforeTest -->
 </testsuite> <!-- Delete Portfolio Test -->
