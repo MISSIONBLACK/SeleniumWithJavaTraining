@@ -1,30 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="testListeners"/>
+		<item key="selection" value="sheetName"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="sheetName"/>
+			<item value="&quot;runmode&quot;: &quot;Yes&quot;"/>
+			<item value="&quot;runmode&quot;: &quot;Yes&quot;,"/>
+			<item value="testDataJSONPath"/>
+			<item value="src/test/resources/projectJSONs/"/>
+			<item value="testJSONData\portfolioData.json "/>
+			<item value="selectionDate"/>
+			<item value="(&quot;user.dir&quot;)"/>
+			<item value="/src/test/resources/projectJSONs/"/>
 			<item value="MyTestNGListener"/>
 			<item value="listner"/>
 			<item value="testcasesrediffPortfolio"/>
 			<item value="findCurrentStockQuantity"/>
 			<item value="YES Bank Ltd"/>
 			<item value="acceptAlert"/>
-			<item value="reportFailure"/>
-			<item value="driver.findElement(By.id"/>
-			<item value="displayDate_xpath"/>
-			<item value="datePickerFromDropDownCalendar"/>
-			<item value="selectfromDropDown"/>
-			<item value="datFormat"/>
-			<item value="wait"/>
-			<item value="dobCalendar_id"/>
-			<item value="testdata"/>
 		</list>
 		<list key="replacehistory">
+			<item value="&quot;runmode&quot;: &quot;No&quot;"/>
+			<item value="&quot;runmode&quot;: &quot;No&quot;,"/>
+			<item value="src//test//resources//projectJSONs//"/>
+			<item value="//src//test//resources//projectJSONs//"/>
 			<item value="testListeners"/>
 			<item value="Listeners"/>
 			<item value="testCaseRediffPortfolio"/>
@@ -38,8 +42,8 @@
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="228"/>
-		<item key="DIALOG_Y_ORIGIN" value="108"/>
+		<item key="DIALOG_X_ORIGIN" value="1161"/>
+		<item key="DIALOG_Y_ORIGIN" value="401"/>
 		<item key="DIALOG_WIDTH" value="322"/>
 		<item key="DIALOG_HEIGHT" value="391"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>

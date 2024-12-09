@@ -13,85 +13,80 @@ import org.testng.xml.XmlSuite.ParallelMode;
 import org.testng.xml.XmlTest;
 
 public class TestNGRunner {
-	
-	/*
-	 * TestNG 			-- Object of Complete TestNG
-	 * XmlSuite 		-- Single Test Suite
-	 * List<XmlSuite> 	-- List of All Test Suites
-	 * XmlTest 			-- Test within the Suite
-	 * List<XmlTest> 	-- All Tests under Single Suite
-	 * Map<String,String> -- Test Parameters
-	 * XmlClass 		-- Single Test Class
-	 * List<XmlClass> 	-- All test Classes within Single Test Case
-	 */
 
-	TestNG testNg;
-	XmlSuite suite;
-	List<XmlSuite> allSuites;
-	XmlTest test;
-	List<XmlTest> allTests;
-	Map<String, String> testParameters;
-//	XmlClass testClass;
-	List<XmlClass> testClasses;
+    /*
+	 * TestNG -- Object of Complete TestNG XmlSuite -- Single Test Suite
+	 * List<XmlSuite> -- List of All Test Suites XmlTest -- Test within the Suite
+	 * List<XmlTest> -- All Tests under Single Suite Map<String,String> -- Test
+	 * Parameters XmlClass -- Single Test Class List<XmlClass> -- All test Classes
+	 * within Single Test Case
+     */
 
-	public TestNGRunner(int suiteThreadPoolSize) {
-		testNg = new TestNG();
-		allSuites = new ArrayList<XmlSuite>();
-		testNg.setSuiteThreadPoolSize(suiteThreadPoolSize);
-		testNg.setXmlSuites(allSuites);
-	}
+    TestNG testNG;
+    XmlSuite suite;
+    List<XmlSuite> allSuites;
+    XmlTest test;
+    List<XmlTest> allTests;
+    Map<String, String> testParameters;
+    // XmlClass testClass;
+    List<XmlClass> testClasses;
 
-	public void run() {
-		testNg.run();
-	}
+    public void createSuite(String suiteName, boolean parallelTests) {
+        suite = new XmlSuite();
+        suite.setName(suiteName);
 
-	public void addListener(String listenerFile) {
-		suite.addListener(listenerFile);
+        if (parallelTests) {
+            suite.setParallel(ParallelMode.TESTS);
+        }
 
-	}
+        allSuites.add(suite);
+    }
 
-	public void addTestClass(String className, List<String> includedMethodNames) {
-		XmlClass testClass = new XmlClass(className);
+    public void addTest(String testName) {
+        test = new XmlTest(suite);
+        test.setName(testName);
 
-		// Add test Methods
-		List<XmlInclude> classMethods = new ArrayList<XmlInclude>();
+        // Initially this will be blank
+        testParameters = new HashMap<String, String>();
+        testClasses = new ArrayList<XmlClass>();
 
-		int priority = 1;
-		for (String methodName : includedMethodNames) {
-			XmlInclude method = new XmlInclude(methodName, priority);
-			classMethods.add(method);
-			priority++;
-		}
+        test.setParameters(testParameters);
+        test.setClasses(testClasses);
+    }
 
-		testClass.setIncludedMethods(classMethods);
-		testClasses.add(testClass);
-	}
+    public void addTestParameters(String name, String value) {
+        testParameters.put(name, value);
+    }
 
-	public void addTestParameter(String name, String value) {
-		testParameters.put(name, value);
-	}
+    public void addTestClass(String className, List<String> includeMethodNames) {
+        XmlClass testClass = new XmlClass();
 
-	public void addTest(String testName) {
-		test = new XmlTest(suite);
-		test.setName(testName);
+        // Add test Methods
+        List<XmlInclude> classMethods = new ArrayList<XmlInclude>();
 
-		// Initially this will be blank
-		testParameters = new HashMap<String, String>();
-		testClasses = new ArrayList<XmlClass>();
+        int priority = 1;
+        for (String methodName : includeMethodNames) {
+            XmlInclude method = new XmlInclude(methodName, priority);
+            classMethods.add(method);
+            priority++;
+        }
 
-		test.setParameters(testParameters);
-		test.setClasses(testClasses);
-	}
+        testClass.setIncludedMethods(classMethods);
+        testClasses.add(testClass);
+    }
 
-	public void createSuite(String suiteName, boolean parallelTests) {
-		suite = new XmlSuite();
-		suite.setName(suiteName);
+    public void addListener(String listenerFile) {
+        suite.addListener(listenerFile);
+    }
 
-		if (parallelTests) {
-			suite.setParallel(ParallelMode.TESTS);
-		}
+    public void run() {
+        testNG.run();
+    }
 
-		allSuites.add(suite);
-	}
-	
+    public TestNGRunner(int setSuiteThreadPoolSize) {
+        testNG = new TestNG();
+        allSuites = new ArrayList<XmlSuite>();
+        testNG.setXmlSuites(allSuites);
+        testNG.setSuiteThreadPoolSize(setSuiteThreadPoolSize);
+    }
 }

@@ -42,11 +42,11 @@ public class BaseTest {
 
 		System.out.println(testdatajsonfilePath + "  " + dataFlag + "  " + iteration + "  " + sheetName);
 
-//		 This is for JSON Reader
-		 JSONObject data = new DataUtil().getTestData(testdatajsonfilePath, dataFlag,
-		 iteration);
+////	This is for JSON Reader
+//		 JSONObject data = new DataUtil().getTestData(testdatajsonfilePath, dataFlag,
+//		 iteration);
 
-//		// This is for Excel Reader
+////	This is for Excel Reader
 //		JSONObject data = new ExcelReader().getTestData(sheetName, dataFlag, testdatajsonfilePath, iteration);
 //		context.setAttribute("testData", data);
 

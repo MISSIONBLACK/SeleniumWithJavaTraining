@@ -10,7 +10,7 @@
 			"runmode": "Yes",
 			"paralleltests": "No",
 			"testdatajsonfile": "testJSONData/portfolioData.json",
-			"testdataxlsfile": "",
+			"testdataxlsfile": "XLS_Data/TestExcelData.xlsx",
 			"suitefilename": "suites/portfoliosuite.json"
 		},
 		{
@@ -18,7 +18,7 @@
 			"runmode": "Yes",
 			"paralleltests": "No",
 			"testdatajsonfile": "testJSONData/stocksData.json",
-			"testdataxlsfile": "",
+			"testdataxlsfile": "XLS_Data/TestExcelData.xlsx",
 			"suitefilename": "suites/stocksuite.json"
 		}
 	]

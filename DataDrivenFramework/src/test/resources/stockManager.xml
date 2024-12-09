@@ -21,6 +21,7 @@
 				<methods>
 					<include name="addStockTest" />
 					<include name="verifyStockIsPresent" />
+					<include name="verifyStockQuantity" />
 					<include name="verifyTransactionHistory" />
 				</methods>
 			</class>

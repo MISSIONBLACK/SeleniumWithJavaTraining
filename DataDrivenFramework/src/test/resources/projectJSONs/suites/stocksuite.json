@@ -6,7 +6,7 @@
 			],
 			"executions": [
 				{
-					"runmode": "No",
+					"runmode": "Yes",
 					"executionname": "Add Stocks in Portfolio",
 					"dataflag": "addfreshstock",
 					"parametervalues": [
@@ -28,7 +28,7 @@
 			],
 			"executions": [
 				{
-					"runmode": "No",
+					"runmode": "Yes",
 					"executionname": "Sell Stocks in Portfolio",
 					"dataflag": "sellexistingstock",
 					"parametervalues": [
@@ -52,7 +52,7 @@
 			],
 			"executions": [
 				{
-					"runmode": "No",
+					"runmode": "Yes",
 					"executionname": "Add Stocks in existying Company in Portfolio",
 					"dataflag": "addexistingstock",
 					"parametervalues": [

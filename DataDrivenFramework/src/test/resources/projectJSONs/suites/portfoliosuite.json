@@ -6,7 +6,7 @@
 			],
 			"executions": [
 				{
-					"runmode": "No",
+					"runmode": "Yes",
 					"executionname": "Create Portfolio Method",
 					"dataflag": "createnewportfolio",
 					"parametervalues": [
@@ -25,7 +25,7 @@
 			],
 			"executions": [
 				{
-					"runmode": "No",
+					"runmode": "Yes",
 					"executionname": "Delete Portfolio Method",
 					"dataflag": "deletenewportfolio",
 					"parametervalues": [

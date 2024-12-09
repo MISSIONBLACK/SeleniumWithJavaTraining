@@ -30,17 +30,4 @@ public class validationKeywords extends genericKeywords {
 			reportFailure("Portfolio "+ value + " is  availble in Portfolio List", true);
 		}
 	}
-
-
-	public void validateText() {
-	}
-
-	public void validateElementPresent() {
-	}
-
-	public void validateElementClickable() {
-	}
-
-	public void validateElementDisplayed() {
-	}
 }
